@@ -8,12 +8,12 @@ class Greeting {
         $this->name = $name;
     }
 
-    public static function fromName(string $name) {
+    public static function fromName(string $name): self {
         return new self($name);
     }
 
     public function __toString(): string {
-        return $this->name;
+        return $name;
     }
 
     public function greeting(): string {
