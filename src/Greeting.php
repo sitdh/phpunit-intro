@@ -13,7 +13,7 @@ class Greeting {
     }
 
     public function __toString(): string {
-        return $name;
+        return $this->name;
     }
 
     public function greeting(): string {
