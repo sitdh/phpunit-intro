@@ -3,6 +3,9 @@
 ## Requirements
 - PHP 7.x
 
+## Software Specification
+- [Grading requirements specification](Grading-Spec.md)
+
 ## Instructions
 1. Install dependency softwares
 ```bash
