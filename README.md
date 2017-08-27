@@ -9,7 +9,7 @@
 $ ./composer.phar install
 ```
 
-1. Verify
+2. Verify
 ```bash
 $ ./vendor/phpunit/phpunit/phpunit --bootstrap src/Greeting.php test/GreetingTest
 ```
