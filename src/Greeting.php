@@ -1,4 +1,5 @@
-<?php
+<?php namespace Grading;
+
 class Greeting {
 
     private $name;

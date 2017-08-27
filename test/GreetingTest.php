@@ -2,6 +2,8 @@
 
 use PHPUnit\Framework\TestCase;
 
+use Grading\Greeting;
+
 final class GreetingTest extends TestCase {
 
     public function testCanBeCreateGreeting(): void {
