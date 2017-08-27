@@ -12,4 +12,13 @@ final class GreetingTest extends TestCase {
             Greeting::fromName('John Doe')
         );
     }
+
+    public function testShouldGreetingToUser(): void {
+        $greeting = strval(Greeting::fromName('John Doe'));
+
+        $this->assertEquals(
+            'Hello, John Doe',
+            $greeting
+        );
+    }
 }
