@@ -14,7 +14,7 @@ $ ./composer.phar install
 
 2. Verify
 ```bash
-$ ./vendor/phpunit/phpunit/phpunit --bootstrap src/Greeting.php test/GreetingTest
+$ ./vendor/bin/phpunit --bootstrap src/Greeting.php test/GreetingTest
 ```
 
 The output should be
