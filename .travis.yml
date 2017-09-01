@@ -1,0 +1,13 @@
+language: php
+
+php: 
+    - 7.1
+
+sudo: false
+
+before_install:
+    - compose self-update
+    - compose install
+
+script:
+    - phpunit
