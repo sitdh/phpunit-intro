@@ -31,15 +31,15 @@ endif;
 
 class Student {
 
-    private string $id;
+    private $id;
 
-    private string $firstname;
+    private $firstname;
 
-    private string $lastname;
+    private $lastname;
 
-    private string $section;
+    private $section;
 
-    private array $activityItems;
+    private $activityItems;
 
     /**
      * Id
@@ -105,17 +105,17 @@ class Student {
 
 class ActivityItem {
 
-    private string $id;
+    private $id;
 
-    private ActivityType $activityType;
+    private $activityType;
 
-    private Activity $activity;
+    private $activity;
 
-    private int $score;
+    private $score;
 
-    private int $weight;
+    private $weight;
 
-    private int $fullScore;
+    private $fullScore;
 
     public function getId(): string {
         return $this->id;
