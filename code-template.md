@@ -172,7 +172,7 @@ class ActivityItem {
 ```php
 <?php namespace grading\entity;
 
-abstract Activity {
+abstract class Activity {
     
     const QUIZ          = 'quiz';
 
