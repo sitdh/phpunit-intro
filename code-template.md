@@ -199,3 +199,23 @@ abstract class ActivityType {
 
 }
 ```
+
+## Mocking objects
+
+### Activity Item
+```php
+$activityItem = $this->createMock(ActivityItem::class);
+$activityItem->method('getScore')
+  ->willReturn(1);
+$activityItem->method('getFullScore')
+  ->willReturn(1);
+$activityItem->method('getWeight')
+  ->willReturn(100);
+```
+
+### Student 
+```php
+$student = $this->createMock(Student::class);
+$student->method('getActivityItems')
+  ->willReturn([$activityItem]);
+```
