@@ -242,5 +242,9 @@ class EvaluationCriterion {
   public function getArchvementGrade(): string {
     return $this->archivementGrade;
   }
+  
+  public function isInRange(float $score): bool {
+    return ($score > $min) && ($score < $max);
+  }
 }
 ```
