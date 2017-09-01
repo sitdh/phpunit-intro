@@ -219,3 +219,28 @@ $student = $this->createMock(Student::class);
 $student->method('getActivityItems')
   ->willReturn([$activityItem]);
 ```
+
+## Evaluation Criterion
+```php
+class EvaluationCriterion {
+
+  private $minimum = 0;
+  
+  private $maximum = 0;
+  
+  private $archivementGrade = '';
+  
+  public function setRange(float $min, float $max): void {
+    $this->minimum = $min;
+    $this->maximum = $max;
+  }
+  
+  public function setArchivementGrade(String $grade): void {
+  
+  }
+  
+  public function getArchvementGrade(): string {
+    return $this->archivementGrade;
+  }
+}
+```
