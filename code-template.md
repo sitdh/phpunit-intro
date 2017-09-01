@@ -236,7 +236,7 @@ class EvaluationCriterion {
   }
   
   public function setArchivementGrade(String $grade): void {
-  
+    $this->archivementGrade = $grade;
   }
   
   public function getArchvementGrade(): string {
